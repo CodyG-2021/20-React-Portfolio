@@ -10,7 +10,7 @@ export default function Footer() {
 					<a className="iconLink" href='https://github.com/CodyG-2021'>
 						<FaGithubSquare size={40} />
 					</a>
-					<a className="iconLink" href='https://github.com/CodyG-2021'>
+					<a className="iconLink" href='https://www.linkedin.com/in/cody-gallagher-4797a546/'>
 						<AiFillLinkedin size={45} />
 					</a>
 				</div>

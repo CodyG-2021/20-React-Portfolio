@@ -4,7 +4,7 @@ export default function About() {
 	return (
 		<div className='mx-5 mt-3 p-3 aboutMe'>
 			<h1>About Me</h1>
-			<img className="profilePic" src="./prof-pic.jpg" alt="Cody Gallagher" />
+			<img className="profilePic" src="./images/prof-pic.jpg" alt="Cody Gallagher" />
 			<p>
 				Born and raised in Colorado and spun around the sun 30 times, I've
 				found passion in fantasy and all that it creates. I have a degree in
@@ -28,7 +28,7 @@ export default function About() {
 				my fiancee and we enjoy eating sushi.
 			</p>
 			<br />
-			<p>
+			<p className="bottomPara text-center">
 				Thank you for taking the time to read about me. I hope you enjoy
 				looking at my work and projects soon to come!
 			</p>
