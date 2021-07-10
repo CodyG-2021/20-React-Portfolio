@@ -1,10 +1,21 @@
 .footer {
   margin-top: 1rem;
   padding: 1rem;
-  background-color: rgb(197, 8, 204);
+  background: rgb(88, 58, 180);
+  background: linear-gradient(
+    270deg,
+    rgba(88, 58, 180, 1) 0%,
+    rgba(29, 204, 253, 1) 50%,
+    rgba(69, 252, 206, 1) 100%
+  );
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
-	font-weight: 500;
+	min-width: 320px;
+  font-weight: 500;
+}
+
+.iconLink {
+	color: white;
 }

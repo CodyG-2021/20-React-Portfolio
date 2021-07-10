@@ -1,12 +1,50 @@
+:root {
+  --white: #f8f8ff;
+  --orange: rgb(255, 136, 0);
+  --purple: rgb(197, 8, 204);
+  --blue: rgb(0, 76, 255);
+}
+
+.portfolio-app {
+  width: 100%;
+}
 .topNav {
-	background-color: rgb(197, 8, 204);
+  background: rgb(88, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(88, 58, 180, 1) 0%,
+    rgba(29, 204, 253, 1) 50%,
+    rgba(69, 252, 206, 1) 100%
+  );
+}
+
+.portCont .topNav {
+  border-bottom: 5px outset #ff00ea;
 }
 
 .nav-item a {
-	color: black;
-	font-weight: 600;
+  color: black;
+  font-weight: 600;
+}
+
+.nav-item .active {
+  color: tomato;
 }
 
 div h1 p {
-	color: white;
+  color: white;
+}
+
+.portCont {
+  min-width: 526px;
+}
+
+.profilePic {
+	float: left;
+	margin: 10px 25px 15px 0px;
+	max-width: 13rem;
+	border-radius: 5rem;
+	border-width: 10px;
+	border-style: double solid solid double;
+	box-shadow: -5px -5px 0px 0px var(--purple);
 }
