@@ -79,3 +79,7 @@ div h1 p {
 .cardBtn:hover {
 	background-color: rgb(0, 255, 213);
 }
+
+.paraTop{
+	margin-top:  25px;
+}

@@ -3,9 +3,9 @@ import React from 'react';
 export default function About() {
 	return (
 		<div className='mx-5 mt-3 p-3 aboutMe'>
-			<h1>About Me</h1>
+			<h1>About Cody Gallagher</h1>
 			<img className="profilePic" src="./images/prof-pic.jpg" alt="Cody Gallagher" />
-			<p>
+			<p className="paraTop">
 				Born and raised in Colorado and spun around the sun 30 times, I've
 				found passion in fantasy and all that it creates. I have a degree in
 				graphic design and computer graphics from the University of Northern
