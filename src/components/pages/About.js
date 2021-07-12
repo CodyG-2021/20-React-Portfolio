@@ -34,6 +34,11 @@ export default function About() {
 					looking at my work and projects soon to come!
 				</p>
 			</div>
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
 		</div>
 
 	);
