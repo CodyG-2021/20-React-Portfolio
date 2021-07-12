@@ -8,3 +8,20 @@
   margin-bottom: 5px;
   width: 100%;
 }
+
+.helloPerson {
+  margin-left: 25px;
+}
+
+.formCont {
+  background: rgb(63, 251, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 251, 251, 1) 0%,
+    rgba(70, 84, 252, 1) 83%
+  );
+	border-radius: 25px;
+	padding: 10px;
+	max-width: 500px;
+	margin: auto;
+}

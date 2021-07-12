@@ -8,12 +8,16 @@
     rgba(29, 204, 253, 1) 50%,
     rgba(69, 252, 206, 1) 100%
   );
-  position: fixed;
+  position: sticky;
   bottom: 0;
   left: 0;
   width: 100%;
 	min-width: 320px;
   font-weight: 500;
+}
+
+.footerCopy{
+margin: 15px 0px 0px 15px;
 }
 
 .iconLink {

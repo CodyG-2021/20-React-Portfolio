@@ -17,8 +17,8 @@ export default function Footer() {
 					<a className="iconLink" href='https://stackoverflow.com/users/14967753/codyg-2021?tab=profile'>
 						<ImStackoverflow size={35} />
 					</a>
+					<span className="footerCopy" >© Cody Gallagher 🎲</span>
 				</div>
-				<span >© Cody Gallagher 🎲</span>
 			</div>
 		</footer>
 	);
